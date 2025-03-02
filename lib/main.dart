@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:real_e_comm_dashboard/core/helper_function/on_generate_routes.dart';
-import 'package:real_e_comm_dashboard/features/views/dashboard_view.dart';
+import 'package:real_e_comm_dashboard/features/dashboard/views/dashboard_view.dart';
 
 void main() {
   runApp(const MyApp());

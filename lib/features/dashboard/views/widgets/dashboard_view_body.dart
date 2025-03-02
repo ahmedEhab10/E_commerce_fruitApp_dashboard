@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:real_e_comm_dashboard/core/widgets/custom_button.dart';
+import 'package:real_e_comm_dashboard/features/add_product/presentation/views/add_product_view.dart';
 
 class DashboardViewBody extends StatelessWidget {
   const DashboardViewBody({super.key});
@@ -13,7 +14,7 @@ class DashboardViewBody extends StatelessWidget {
         children: [
           CustomButton(
             onPressed: () {
-              // Navigator.pushNamed(context, AddProductView.routeName);
+              Navigator.pushNamed(context, AddProductView.routeName);
             },
             text: 'Add Data',
           ),
