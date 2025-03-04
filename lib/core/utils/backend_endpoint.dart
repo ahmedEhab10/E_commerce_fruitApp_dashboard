@@ -3,7 +3,7 @@ class BackendEndpoint {
   static const addUserData = 'users';
   static const getUsersData = 'users';
   static const isUserExists = 'users';
-  static const productsCollection = 'products';
+  static const AddProduct = 'products';
   static const getOrders = 'Orders';
-  static const updateOrder =  'Orders';
+  static const updateOrder = 'Orders';
 }
